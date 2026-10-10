@@ -13,21 +13,29 @@ My background spans web and API penetration testing, Android security, infrastru
 - **Security Research**: Reverse engineering, binary analysis, exploitation, and vulnerability investigation.
 
 ## Featured Security Projects
-### Product Security Case Study
+### 1. DevSecOps Home Lab — AppSec Security Pipeline
+**Status**: Active development · Private repository
 
-Threat modeling, architecture review, attack scenarios, risk assessment, and remediation planning for a demonstration application.
+An end-to-end DevSecOps laboratory built around OWASP Juice Shop, integrating application security testing, infrastructure scanning, container security, SBOM generation, and container image signing.
 
-### Secure CI/CD Reference Pipeline
+**Security controls**: Semgrep, Snyk, Gitleaks, Checkov, Hadolint, Trivy, Syft, Cosign, Terraform, Docker, and GitHub Actions.
 
-A practical security pipeline integrating code analysis, dependency scanning, secrets detection, container scanning, and risk-based security gates.
+**Current focus**: Vulnerability triage, root-cause analysis, remediation, regression testing, and security gate refinement.
 
-### Cloud-Native Security Lab
+### 2. Security Architecture Labs
+**Status**: Planned
 
-Hands-on experiments with Kubernetes security controls, workload isolation, RBAC, and infrastructure policy enforcement.
+Practical security architecture case studies covering system context, trust boundaries, threat modeling, risk analysis, security requirements, and mitigation strategies.
 
-### Secure Code Review Lab
+### 3. Application Security Research & Remediation
+**Status**: Planned
 
-Vulnerable code, reproducible security tests, root-cause analysis, remediation, and regression testing.
+Hands-on application security investigations documenting vulnerability validation, root-cause analysis, secure coding fixes, and regression testing.
+
+### 4. Cloud-Native Security
+**Status**: Planned
+
+Practical Kubernetes and infrastructure security experiments focused on least privilege, workload isolation, policy enforcement, and security validation.
 
 _Project descriptions reflect work as each repository is implemented and validated._
 
